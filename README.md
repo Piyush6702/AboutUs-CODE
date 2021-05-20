@@ -29,42 +29,92 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# CODE - BIET Website
+This repository will be used for the version control while developing CODE's Official Website
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Follow the contributing guidelines mentioned below to generate a PR that counts:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Steps to follow to start Contributing :scroll:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 0. Star The Repo :star2:
 
-## Learn More
+Star the repo by pressing the topmost-right button to start your wonderful journey.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Fork the repo :fork_and_knife:
 
-### Code Splitting
+You can get your own fork/copy of <a href="https://github.com/codebiet/Website_Development.git">CODE's Website Development Project</a> by using the <kbd><b>Fork</b></kbd> button at top-right of your screen.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### 2. Clone it to your local machine :busts_in_silhouette:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`NOTE: commands are to be executed on Linux, Mac, and Windows(using Git Bash)`
 
-### Making a Progressive Web App
+You need to clone (download) it to local machine using
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+$ git clone https://github.com/codebiet/Website_Development.git
+```
 
-### Advanced Configuration
+> This makes a local copy of the repository in your machine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Once you have cloned the `Website_Development` repository in Github, move to that folder first using change directory command on Linux, Mac, or Windows (using Git Bash opened).
 
-### Deployment
+```sh
+# This will change directory to a folder Website_Development
+$ cd Website_Development
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Move to this folder for all other commands.
 
-### `npm run build` fails to minify
+Now Make your contribution on the project and commit your changes to a new branch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3. Create a new branch :bangbang:
+
+Whenever you are going to contribute. Please create a separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
+
+```sh
+# It will create a new branch with name Branch_Name and switch to branch Folder_Name
+$ git checkout -b Branch_Name
+```
+
+Create a separate branch for contribution and try to use the same name of the branch as of folder.
+
+To switch to the desired branch
+
+```sh
+# To switch from one folder to other
+$ git checkout Branch_Name
+```
+
+To add the changes to the branch. Use
+
+```sh
+# To add all files to branch Folder_Name
+$ git add ./
+```
+
+Type in a message relevant for the code reviewer using
+
+```sh
+# This message get associated with all files you have changed
+$ git commit -m 'relevant message'
+```
+
+Now, Push your awesome work to your remote repository using
+
+```sh
+# To push your work to your remote repository
+$ git push -u origin Branch_Name
+```
+
+Finally, go to your repository in the browser and click on `Compare and Pull Requests`.
+Then add a title and description to your pull request that explains your precious effort.
+
+Always feel free to drop a comment or create an issue if you find something missing. Our excellent contributors will always get it done.
+ 
+Happy Coding 🎉🎉
+
+
+
