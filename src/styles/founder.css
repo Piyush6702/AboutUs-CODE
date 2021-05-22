@@ -7,8 +7,7 @@
    flex-wrap:wrap;
    margin :0 auto;
    padding:20px;
-   padding-left: 100px;
-   padding-right:95px;
+    
 }
 .cardFounder{
    box-sizing: border-box;
@@ -17,8 +16,8 @@
    flex-direction: column;
    align-items: center;
    border-radius: 18px;
-   margin-top:3%;
-   margin-bottom:3%;
+   
+   margin-bottom:5%;
    margin-left:5%;
 }
 .imagesFounedr
@@ -41,7 +40,7 @@
    color: inherit;
    width: 100%;
    font-weight:800;
-   color:#f68f4a;
+   color:grey;
 }
 .FounderDesc
 {
@@ -50,6 +49,9 @@
    font-weight: normal;
    color: inherit;
    width: 100%;
-   color:rgb(105, 102, 102);
+   color:rgb(160, 150, 150);
 }
   
+section h3{
+   color:#f68f4a;
+}

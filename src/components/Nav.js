@@ -11,23 +11,26 @@ function Nav()
         <div>
         <div className="header">  
         <div className="logo">
-          C.O.D.E
-  
+          
+          <Link to="/">C.O.D.E</Link>
         </div>
         <div className="navItems">
             <ul>
                 <li>
-                <Link to="/">Home</Link>
+                <Link to="/features">Features</Link>
                 </li>
                 <li>
                 <Link to="/additem">Projects</Link>
                 </li>
                
                 <li>
-                <Link to="/cart">Past-Events   </Link>
+                <Link to="/events">Past-Events   </Link>
                 </li>
                 <li>
-                <Link to="/cart">Blogs   </Link>
+                <Link to="/blogs">Blogs   </Link>
+                </li> 
+                <li>
+                <Link to="/partners">Partners   </Link>
                 </li> 
         </ul>
         </div>

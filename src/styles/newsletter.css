@@ -1,0 +1,72 @@
+.newsletterSection
+{
+    box-sizing: content-box;
+    margin: 0 auto;
+    overflow: visible;
+     max-width:720px;
+}
+.newsletterSection{
+    text-align: center;
+}
+.userDetailsNewsletter
+{
+    display:flex;
+    justify-content:space-between   ;
+    flex-wrap: wrap;    
+    text-align:center;
+}
+     p{
+    padding:20px;
+}
+.newLetterInputDiv
+{
+    padding:20px;  overflow: hidden;
+}
+form{
+    margin: 0;
+    padding: 0;
+}
+input[type=text]
+{
+    max-width:320px;
+}
+ 
+input
+{
+    border: 1px solid #dadce0;
+    font: inherit;
+    font-size: inherit;
+    padding: 14px 8px;
+    width: 100%;
+    outline:none;   
+    margin-top:3%;
+    color:rgb(246 141 13);;;
+}
+  
+ form > span{
+    color: #5f6368;
+    font: inherit;
+    font-size: 14px;
+    margin: 8px auto 56px;
+    width:100%;
+    padding:20px;
+    margin-top:10%;
+ }
+.buttonNewsletter
+{
+    align-items: center; 
+    background: 0 0;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer; 
+    font: 500 .875rem/2.25rem Segoe UI,system-ui,-apple-system,sans-serif;
+    height: 56px;
+    justify-content: center;
+    letter-spacing: 1px;
+    outline: 0;
+    padding: 0 16px;
+    margin-top:3%;
+    background-color:rgb(246 141 13);;
+    
+}

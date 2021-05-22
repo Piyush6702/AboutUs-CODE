@@ -1,5 +1,14 @@
  
+import { useEffect } from 'react';
+import React,{useState} from 'react';
+
 function ComingEvents() {
+
+
+let [counter, changeCounter] = useState(0);
+
+     
+ 
     return (
       <div className="upcomingEvents">
        
@@ -8,7 +17,7 @@ function ComingEvents() {
                </h3>
 
                 <div  className="cards-WhatweDo-div" >
-                 
+                
                   <div className="cardEvents">
                        
                       <div className="cardsTitle">Hackathon 2.0 </div>

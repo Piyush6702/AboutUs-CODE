@@ -5,7 +5,7 @@ function Founder() {
       <div >
              <section className="role">
               <h3>
-                  Pioneers
+                  Founding Mmebers
               </h3>
           <div  className="cardsFoundingMemberDiv" >
             <div  className="cardFounder">
@@ -15,9 +15,7 @@ function Founder() {
                       <div className="FounderDesc">
                        CEO & CTO 
                       </div>
-                      <div>
-                          @ld
-                      </div>
+                      
                       </>
             </div>
             <div  className="cardFounder">
@@ -27,9 +25,7 @@ function Founder() {
                       <div className="FounderDesc">
                        CEO ,Analyst 
                       </div>
-                      <div>
-                         @Ld
-                      </div>
+                     
                       </>
             </div>
             <div  className="cardFounder">
@@ -38,41 +34,7 @@ function Founder() {
                       <div className="FounderTitle"> Rajat Saxena  </div>
                       <div className="FounderDesc">
                        CEO ,HR 
-                      </div>
-                      <div>
-                      @Ld
-                      </div>
-                      </>
-            </div>
-           
-            <div  className="cardFounder">
-            <img src={development} className="imagesFounedr"  alt="devSvg"></img>
-                <>
-                      <div className="FounderTitle"> Tanu Agrawal  </div>
-                      <div className="FounderDesc">
-                      Executive Founder
-                      </div>
-                     
-                      </>
-            </div>
-            <div  className="cardFounder">
-            <img src={development} className="imagesFounedr"  alt="devSvg"></img>
-                <>
-                      <div className="FounderTitle"> Vipin Gautam  </div>
-                      <div className="FounderDesc">
-                      Executive Founder
-                      </div>
-                      
-                      </>
-            </div>
-            <div  className="cardFounder">
-            <img src={development} className="imagesFounedr"  alt="devSvg"></img>
-                <>
-                      <div className="FounderTitle"> Manal Jain  </div>
-                      <div className="FounderDesc">
-                       Executive Founder
-                      </div>
-                     
+                      </div>           
                       </>
             </div>
               <div>

@@ -3,11 +3,12 @@ import React,{lazy} from 'react';
 import svg from '../assets/SVG.svg';
 
 import '../styles/home.css';
-// const axios = require('axios');
-const Founder = lazy(() => import("../components/founder"));
+
+// const Founder = lazy(() => import("../components/founder"));
 const ComingEvents = lazy(() => import("../components/comingEvents"));
 const WhatWeDo = lazy(() => import("../components/whatWeDo"));
-
+const Testimonials= lazy(()=>import("../components/testimonials"));
+const Newsletter= lazy(()=>import("../components/newsletter"));
 function Home () {
 
     return <>
@@ -42,14 +43,13 @@ function Home () {
            </section>
       <WhatWeDo/>   
       <section >
-              <ComingEvents/>
+      <ComingEvents/>
       </section>    
-      <Founder/>
+      
+      <Testimonials/>
+      <Newsletter/>
     </div>
     </>
 }
-//testimonial  
-// Aur achievements i did not think ki ye sahi rhega abhi k lie
-// Newsletter
-
+ 
 export default Home;
