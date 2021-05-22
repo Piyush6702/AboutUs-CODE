@@ -24,7 +24,10 @@ function Newsletter()
                <input type="text" required placeholder="First Name"></input>
                <input type="text" required placeholder="Last Name   "></input>
           </div>
-      <input type="email"  required   placeholder="Enter your email"></input>
+          <div className="emailOuterDiv">
+          <input type="email"  required   placeholder="Enter your email"></input>
+          </div>
+     
       <br></br>
       <span>
       Don't worry, no spam here! Your information will only be used for C.O.D.E and Chrome related updates and our emails 

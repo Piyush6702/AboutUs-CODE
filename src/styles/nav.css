@@ -7,9 +7,7 @@ li{
     padding: 0 16px;
     position: relative;
     font-size:15px;
-
 }
- 
 ul{ padding-right:40px;
     
     margin:0;
@@ -24,9 +22,7 @@ ul{ padding-right:40px;
     display: flex;
     font-size: 14px;
     height: 64px;
-     width:100%;
-     
-   
+     width:100%;   
 }
 a{
     text-decoration: none;
@@ -38,8 +34,6 @@ a:hover{
   span {
     color:#d56a6a;
 }
- 
- 
 .navItems
 {
     display:flex;
@@ -54,14 +48,70 @@ a:hover{
 .loginButton
 {
     background: transparent;
+    padding:20px;
     
-    
-   padding-right: 40px;;
-    text-align: center;     
-    font-weight: 500;
-     
 }
 .loginButton:hover{
     cursor:pointer;
     font-size: 16px;;
 }
+
+.hamburger
+    {
+        display:none;
+       text-align:left;
+width:100%;
+    }
+    .hamburger button{
+        border:none;
+        padding:10px;
+        font-size:15px;
+        background-color: white;
+        cursor:pointer;
+    }
+    .hamburger button:hover{
+        cursor:pointer;
+        font-size:17px;
+    }
+    .sideNav {
+        display: flex;
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    z-index: 10;
+    top: 0;
+    width: 250px;
+    box-shadow: -3px 0 5px 0 #555;
+    transition: 0.5s;
+    }
+
+@media only screen and (max-width: 800px) {
+    .navItems {
+      display:none;
+    }
+    .hamburger
+    {
+        display:block;
+    }
+  }
+
+
+
+
+
+ 
+
+.sidebar
+{margin-top:5%;
+    text-align:left;
+}
+  .sidebar >li >a{
+    align-items: center;
+    color: #202124;
+    display: block;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 16px;
+    position: relative;
+    font-size:15px;
+  }

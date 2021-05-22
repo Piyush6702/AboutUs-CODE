@@ -30,14 +30,18 @@ input[type=text]
 {
     max-width:320px;
 }
- 
+ .emailOuterDiv
+ {
+     display: block;
+ }
 input
 {
+    
     border: 1px solid #dadce0;
     font: inherit;
     font-size: inherit;
     padding: 14px 8px;
-    width: 100%;
+    width: fill-available;
     outline:none;   
     margin-top:3%;
     color:rgb(246 141 13);;;

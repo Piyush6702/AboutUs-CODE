@@ -6,7 +6,7 @@
     overflow: visible;
     padding: 176px 24px 72px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
  }
  .divContent
@@ -14,6 +14,7 @@
      margin:0;
      padding:0;
      max-width:400px;
+     text-align: center;
  }
  .divContent >
  {
