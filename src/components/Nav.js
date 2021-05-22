@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React,{useState} from "react";
 import {
     Link
   } from "react-router-dom";
@@ -8,11 +8,6 @@ function Nav()
 {
 
     let [showSideNav,setSideNav]=useState(false);
-  let myFunction=function () {
-  
-    setSideNav(!showSideNav);
-    
-  }
 
     return (
         <div>
