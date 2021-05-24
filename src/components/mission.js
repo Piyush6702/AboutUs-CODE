@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import img from'../assets/SVG.svg';
+// import img from'../assets/SVG.svg';
 function Mission() {
     return (
       <div className="mission">

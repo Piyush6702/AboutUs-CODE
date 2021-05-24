@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import img from'../assets/aboutImage.jpg';
+ 
 import '../styles/newsletter.css';
  
 function Contact() {

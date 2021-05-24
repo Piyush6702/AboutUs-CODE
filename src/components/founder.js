@@ -15,20 +15,20 @@ function Founder() {
                       <div className="FounderDesc">
                        CEO | CTO 
                        <li>
-                  <a href="https://www.linkedin.com/company/codebiet/" target="_blank">Linkedin</a>
+                  <a href="https://www.linkedin.com/company/codebiet/"rel="noreferrer"  target="_blank">Linkedin</a>
               </li>
                       </div>      
                       </>
             </div>
             <div  className="cardFounder">
-            <img src={development} className="imagesFounder"  alt="devSvg"></img>
+            <img src={development} className="imagesFounder" rel="noreferrer"  alt="devSvg"></img>
                 <>
                  <div className="FounderTitle"> Samarth Agrawal 
                  </div>
                  <div className="FounderDesc">
                        CEO | Analyst 
                     <li>
-                        <a href="https://www.linkedin.com/company/codebiet/" target="_blank">Linkedin</a>
+                        <a href="https://www.linkedin.com/company/codebiet/" rel="noreferrer" target="_blank">Linkedin</a>
                     </li>
                  </div>
                   
@@ -41,7 +41,7 @@ function Founder() {
                       <div className="FounderDesc">
                        CEO | HR 
                       <li>
-                  <a href="https://www.linkedin.com/company/codebiet/" target="_blank">Linkedin</a>
+                  <a href="https://www.linkedin.com/company/codebiet/" target="_blank" rel="noreferrer" >Linkedin</a>
               </li>
               
                       </div>   
