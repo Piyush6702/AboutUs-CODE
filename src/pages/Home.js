@@ -9,6 +9,7 @@ const ComingEvents = lazy(() => import("../components/comingEvents"));
 const WhatWeDo = lazy(() => import("../components/whatWeDo"));
 const Testimonials= lazy(()=>import("../components/testimonials"));
 const Newsletter= lazy(()=>import("../components/newsletter"));
+const Social= lazy(()=>import("../components/social"));
 function Home () {
 
     return <>
@@ -48,6 +49,7 @@ function Home () {
       
       <Testimonials/>
       <Newsletter/>
+      <Social/>
     </div>
     </>
 }

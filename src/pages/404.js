@@ -1,10 +1,8 @@
- 
+ import '../styles/nav.css'
 function Error404() {
     return (
       <div className="error404">
-        <h1>
-          error plzz corect
-        </h1>
+        404 error occured 
       </div>
     );
   }

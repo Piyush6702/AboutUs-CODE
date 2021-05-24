@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import {
-    Link
+    NavLink
   } from "react-router-dom";
 import '../styles/nav.css';
  
@@ -19,48 +19,53 @@ function Nav()
                </button>
         </div>
         <div className="logo">
-          <Link to="/">C.O.D.E</Link>
+          <NavLink to="/">C.O.D.E</NavLink>
         </div>
 
      { showSideNav &&  <div className="sideNav">
-     <span onClick={()=> setSideNav(!showSideNav)}>Close
+     <span onClick={()=> setSideNav(!showSideNav)}>
+       <p> X</p>
     
      </span>
      <ul className="sidebar">
+               
                 <li>
-                <Link to="/features">Features</Link>
+                <NavLink to="/additem">Projects</NavLink>
                 </li>
                 <li>
-                <Link to="/additem">Projects</Link>
+                <NavLink to="/events"> Events</NavLink>
                 </li>
                 <li>
-                <Link to="/events">Past-Events</Link>
-                </li>
-                <li>
-                <Link to="/blogs">Blogs</Link>
+                <NavLink to="/blogs">Blogs</NavLink>
                 </li> 
+                 
                 <li>
-                <Link to="/partners">Partners</Link>
-                </li> 
+                <NavLink to="/about">About Us</NavLink>
+                </li>
+                <li>
+                <NavLink to="/contact">Contact</NavLink>
+                </li>
            </ul>
         </div>}
         <div className="navItems" > 
             <ul >
-                <li>
-                <Link to="/features">Features</Link>
+                
+            <li>
+                <NavLink to="/additem">Projects</NavLink>
                 </li>
                 <li>
-                <Link to="/additem">Projects</Link>
+                <NavLink to="/events"> Events</NavLink>
                 </li>
                 <li>
-                <Link to="/events">Past-Events</Link>
-                </li>
-                <li>
-                <Link to="/blogs">Blogs</Link>
+                <NavLink to="/blogs">Blogs</NavLink>
                 </li> 
+                 
                 <li>
-                <Link to="/partners">Partners</Link>
-                </li> 
+                <NavLink to="/about">About Us</NavLink>
+                </li>
+                <li>
+                <NavLink to="/contact">Contact</NavLink>
+                </li>
            </ul>
         </div>
      <div>  

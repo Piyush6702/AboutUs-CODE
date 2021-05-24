@@ -1,29 +1,31 @@
-import React from "react";
-
+import '../styles/about.css'
+import img from'../assets/aboutImage.jpg';
 import '../styles/newsletter.css';
  
-function Newsletter()
-{
-   
+function Contact() {
     return (
-        <section className="newsletterSection">
-
+      <div className="contact">
+          
+<section className="newsletterSection">
+<h1>
+    Contact Us
+</h1>
 <div className="newsLetter">
            <div>
            <h1>
-             Developer Newsletter
+              
            </h1>
            <p>
-           Get the latest news, techniques and updates straight to your inbox.  
+        Get in touch with us in no time
            </p>
          </div>
        
        <div className="newLetterInputDiv">
       <form>
-          {/* <div className="userDetailsNewsletter">
+          <div className="userDetailsNewsletter">
                <input type="text" required placeholder="First Name"></input>
                <input type="text" required placeholder="Last Name   "></input>
-          </div> */}
+          </div>
           <div className="emailOuterDiv">
           <input type="email"  required   placeholder="Enter your email"></input>
           </div>
@@ -41,7 +43,9 @@ function Newsletter()
 </div>
     
         </section>
-    )
-}
-
-export  default  Newsletter;
+      </div>
+    );
+  }
+  
+  export default Contact;
+  

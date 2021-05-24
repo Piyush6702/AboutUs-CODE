@@ -3,37 +3,38 @@
    margin-top:4%;
    display:flex;
    justify-content: center;
-   text-align: center;
+
    flex-wrap:wrap;
    margin :0 auto;
-   padding:20px;
-    
+   
+}
+section h1{
+   font-size: 40px;;
 }
 .cardFounder{
    box-sizing: border-box;
-   width: 332px;
+   
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-radius: 18px;
-   
+   border-radius: 4px;
    margin-bottom:5%;
    margin-left:5%;
+  padding:10px;
+  border:1px solid rgb(224, 221, 221);
 }
-.imagesFounedr
-{
+.imagesFounder
+{max-width:200px;
    display: block;
-   width: auto;
-   margin: 20px 20px 32px;
-   
-   max-height: 150px;
-   max-width: 150px;;
+  
+   width:100%;
+   height:auto;
    padding:10px;
-   border-radius:50%;
+   padding-left: 0;
    box-shadow: 0px 10px 16px -8px rgb(0 0 0 / 20%);
 }
 .FounderTitle
-{
+{margin-top:10px;
    margin-bottom: 6px;
    font-size: 21px;
    line-height: 27px;
@@ -41,6 +42,7 @@
    width: 100%;
    font-weight:800;
    color:grey;
+   text-align: left;
 }
 .FounderDesc
 {
@@ -52,6 +54,4 @@
    color:rgb(160, 150, 150);
 }
   
-section h3{
-   color:#f68f4a;
-}
+ 

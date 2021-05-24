@@ -1,7 +1,7 @@
  import '../styles/footer.css'
 function Footer() {
     return (
-      <div className="error404">
+      <div className="">
            <footer>
               <div className="footerDiv">
                   <div className="footerInnerDiv">

@@ -4,37 +4,50 @@ function Founder() {
     return (
       <div >
              <section className="role">
-              <h3>
-                  Founding Mmebers
-              </h3>
+              <h1>
+                 Founders
+              </h1>
           <div  className="cardsFoundingMemberDiv" >
             <div  className="cardFounder">
-                <img src={development} className="imagesFounedr"  alt="devSvg"></img>
+                <img src={development} className="imagesFounder"  alt="devSvg"></img>
                 <>
-                      <div className="FounderTitle"> Ritsh Rai  </div>
+                      <div className="FounderTitle"> Ritsh Rai</div>  
                       <div className="FounderDesc">
-                       CEO & CTO 
-                      </div>
-                      
+                       CEO | CTO 
+                       <li>
+                  <a href="https://www.linkedin.com/company/codebiet/" target="_blank">Linkedin</a>
+              </li>
+                      </div>      
                       </>
             </div>
             <div  className="cardFounder">
-            <img src={development} className="imagesFounedr"  alt="devSvg"></img>
+            <img src={development} className="imagesFounder"  alt="devSvg"></img>
                 <>
-                      <div className="FounderTitle"> Samarth Agrawal </div>
-                      <div className="FounderDesc">
-                       CEO ,Analyst 
-                      </div>
-                     
+                 <div className="FounderTitle"> Samarth Agrawal 
+                 </div>
+                 <div className="FounderDesc">
+                       CEO | Analyst 
+                    <li>
+                        <a href="https://www.linkedin.com/company/codebiet/" target="_blank">Linkedin</a>
+                    </li>
+                 </div>
+                  
                       </>
             </div>
             <div  className="cardFounder">
-            <img src={development} className="imagesFounedr"  alt="devSvg"></img>
+            <img src={development} className="imagesFounder"  alt="devSvg"></img>
                 <>
-                      <div className="FounderTitle"> Rajat Saxena  </div>
+                      <div className="FounderTitle"> Rajat Saxena   </div>
                       <div className="FounderDesc">
-                       CEO ,HR 
-                      </div>           
+                       CEO | HR 
+                      <li>
+                  <a href="https://www.linkedin.com/company/codebiet/" target="_blank">Linkedin</a>
+              </li>
+              
+                      </div>   
+                      <div>
+                
+                      </div>        
                       </>
             </div>
               <div>

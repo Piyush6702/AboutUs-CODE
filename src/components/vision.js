@@ -1,0 +1,38 @@
+import '../styles/social.css'
+import React,{lazy} from 'react';
+const Founder= lazy(()=>import("./founder"));
+ 
+function Mission() {
+    return (
+      <div className="mission">
+          <section>
+             <h1>
+               Why we are building C.O.D.E
+             </h1>
+              <div>
+          <p>
+          With the rising trend of video consumption, we believe videos are a great medium to educate & train people. But we found a gap that there are not much product video creation tools or video-first product onboarding platforms. So we went and built one. With Trainn you can create product training videos including product walkthroughs and host as a training academy
+           or embed within your product as structured learning paths during onboarding process.
+       </p>
+         
+         
+              </div>
+          </section>
+           <section>
+<Founder/>
+
+            {/* <h1>
+              Founder Word's
+            </h1>
+            <div className="founderrDivConainer">
+              <div className="founderCard"> 
+Hello
+              </div>
+            </div> */}
+           </section>
+      </div>
+    );
+  }
+  
+  export default Mission;
+  
