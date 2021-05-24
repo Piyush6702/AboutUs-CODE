@@ -30,15 +30,12 @@ function Nav()
      <ul className="sidebar">
                
                 <li>
-                <NavLink to="/additem">Projects</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
                 </li>
                 <li>
                 <NavLink to="/events"> Events</NavLink>
                 </li>
-                <li>
-                <NavLink to="/blogs">Blogs</NavLink>
-                </li> 
-                 
+                
                 <li>
                 <NavLink to="/about">About Us</NavLink>
                 </li>
@@ -51,7 +48,7 @@ function Nav()
             <ul >
                 
             <li>
-                <NavLink to="/additem">Projects</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
                 </li>
                 <li>
                 <NavLink to="/events"> Events</NavLink>

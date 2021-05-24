@@ -7,6 +7,8 @@ const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/contact"));
 const Home = lazy(() => import("./pages/Home"));
 const Error404 = lazy(() => import("./pages/404"));
+const Events = lazy(() => import("./pages/events"));
+const Projects = lazy(() => import("./pages/projects"));
 const Footer = lazy(() => import("./components/Footer"));
 function App() {
   return (
@@ -21,8 +23,9 @@ function App() {
               <Suspense fallback={<h1>Loading Web App...</h1>}>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    {/* <Route path="/Skills" component={Skills} />*/}
+                    <Route path="/projects" component={Projects} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/events" component={Events} />
                     <Route path="/about" component={About} /> 
                     <Route
                       path="*"
