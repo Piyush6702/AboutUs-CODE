@@ -41,7 +41,7 @@ input
     font: inherit;
     font-size: inherit;
     padding: 14px 8px;
-    width: fill-available;
+    width: stretch;
     outline:none;   
     margin-top:3%;
     color:rgb(246 141 13);;;

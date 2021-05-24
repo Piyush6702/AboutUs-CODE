@@ -63,7 +63,7 @@ width:20%;
 {
    display: flex;
 flex-wrap: wrap;
-justify-content:  start;
+justify-content:  flex-start;
 padding:20px;
 }
 .cardEvent{

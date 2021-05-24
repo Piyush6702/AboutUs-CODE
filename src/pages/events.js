@@ -9,11 +9,11 @@ function Events() {
          <div className="eventsWrapper">
           
            <div className="eventsSubCategory  ">
-          <a href="#" className="tab" selected>
+          <a href="#abs" className="tab" selected>
            Current
           </a>
-          <a href="#"className="tab"> Upcoming</a>
-          <a href="#" className="tab">Recently closed</a>
+          <a href="#a"className="tab"> Upcoming</a>
+          <a href="#k" className="tab">Recently closed</a>
            </div>
            <div className="eventBody">
                 <div className="eventCardContainer">
