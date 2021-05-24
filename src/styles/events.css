@@ -119,7 +119,7 @@ padding:20px;
    flex-direction: column;
    margin-right: 16px;
 }
-.eventInfo >p 
+.eventInfo  p 
 {
    font-size: 13px;
    color: rgba(28,28,28,.6);
