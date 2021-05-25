@@ -50,7 +50,7 @@ function Project()
                               </div>   
                                      
                        </div>      
-                       <div className="projectCard">
+                          <div className="projectCard">
                              
                              <div className="projectThumbnail"> 
                               <img src={img} className="imagesFounder"  alt="devSvg"></img>

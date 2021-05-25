@@ -1,6 +1,7 @@
-import '../styles/about.css'
  
 import '../styles/newsletter.css';
+import React,{lazy} from 'react';
+const Social= lazy(()=>import("../components/social"));
  
 function Contact() {
     return (
@@ -43,6 +44,7 @@ function Contact() {
 </div>
     
         </section>
+        <Social/>
       </div>
     );
   }

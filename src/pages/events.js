@@ -3,17 +3,18 @@ import svg from '../assets/SVG.svg';
 
 function Events() {
     return (
-      <div className="events">
-        
-       <section className="eventsOuter"> 
-         <div className="eventsWrapper">
-          
-           <div className="eventsSubCategory  ">
-          <a href="#abs" className="tab" selected>
-           Current
-          </a>
-          <a href="#a"className="tab"> Upcoming</a>
-          <a href="#k" className="tab">Recently closed</a>
+      <div className="events"> 
+        <section className="eventsOuter"> 
+        <div className="eventsCategory">
+              <a href="#abs" className="tab" selected>All events</a>
+              <a href="#a"className="tab"> Webinar</a>
+              <a href="#k" className="tab"> Coding Events</a>
+           </div>
+           <div className="eventsWrapper">     
+             <div className="eventsSubCategory  ">
+              <a href="#abs" className="tab" selected>Current</a>
+              <a href="#a"className="tab"> Upcoming</a>
+              <a href="#k" className="tab">Recently closed</a>
            </div>
            <div className="eventBody">
                 <div className="eventCardContainer">
@@ -41,14 +42,9 @@ function Events() {
                                  </div>
                                  <div className="eventInfo">
                                  <p>
-                                     <b>
-                                       Entry Fees
-                                     </b>
-                                   </p>
-                                   <p>
-                                  Free
-                                   </p>
-
+                                     <b> Entry Fees </b>
+                                 </p>
+                                 <p>  Free   </p>
                                  </div>
                                  <div className="eventInfo ">
                                  <p>
