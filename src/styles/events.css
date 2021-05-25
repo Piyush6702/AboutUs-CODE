@@ -9,12 +9,11 @@
 .cardEvent
 {
    box-sizing: border-box;
-   width: 332px;
+   max-width: 400px;
    text-align:left;
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin: 0 24px;
    padding: 24px;
    background-color: #fff;
    border-radius: 18px;
@@ -36,7 +35,7 @@ border-top: 1px solid #e0e0e0;
 border-bottom: 1px solid #e0e0e0;
 text-align: left;}
 .tab{
-   margin-right: 52px;
+   margin-right:37px;
     font-size: 17px;
 
 }
@@ -104,7 +103,7 @@ padding:20px;
 .cardMain
 {
    text-align: left;
-   padding: 20px 16px;
+   padding: 10px 10px;
 }
 .eventDetails
 {
@@ -161,4 +160,8 @@ padding:20px;
    .eventsOuter {
      padding:20px;
    }
+ }
+ .cardMain >p
+ {
+    font-size:20px;
  }
