@@ -71,7 +71,7 @@ function Project()
                                   </li>
                               </div>   
                                      
-                       </div>      
+                       </div>       
                     </div>
              </div>
         </div>
