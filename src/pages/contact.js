@@ -1,6 +1,7 @@
  
 import '../styles/newsletter.css';
-import React,{lazy} from 'react';
+import '../styles/contact.css';
+import React, {lazy}from 'react';
 const Social= lazy(()=>import("../components/social"));
  
 function Contact() {
@@ -8,39 +9,54 @@ function Contact() {
       <div className="contact">
           
 <section className="newsletterSection">
-<h1>
-    Contact Us
-</h1>
-<div className="newsLetter">
-           <div>
-           <h1>
-              
-           </h1>
-           <p>
-        Get in touch with us in no time
-           </p>
-         </div>
+ 
+       <div className="newsLetter">
        
        <div className="newLetterInputDiv">
-      <form>
-          <div className="userDetailsNewsletter">
-               <input type="text" required placeholder="First Name"></input>
-               <input type="text" required placeholder="Last Name   "></input>
-          </div>
-          <div className="emailOuterDiv">
-          <input type="email"  required   placeholder="Enter your email"></input>
-          </div>
-     
-      <br></br>
+          <div className="contactDetails">
+            
+              <div className="contactDetailsInner">
+             <h2>
+               Contact Details
+             </h2>
+             <div className="codeAddress">
+               Permanent Address
+               <p>KochaBhawar BIET,Jhansi</p>
+             </div>
+             <div className="codeAddress">
+               Call us
+               <p>981181 , 88885455</p>
+             </div>
+             <div className="codeAddress">
+               Mail us
+               <p>gauti@123unplaced.com </p>
+             </div>
+             
+              </div>
+       </div>
+       <div>
+         
+       </div>
+       <div>
+
+       <form>
+           
+           <input type="text" required placeholder="First Name*"></input>
+           <input type="email"  required  placeholder="Enter your email"></input>
+           <input type="number" required placeholder="Contact no."></input>
+           <input type="text" required placeholder="Type your message here*" className="textareaContactDetails"></input>
+      
+      
+     <button type="submit " className="buttonNewsletter">Send message</button>
+  </form>
+       </div>
+        </div>
+        <br></br>
       <span>
-      Don't worry, no spam here! Your information will only be used for C.O.D.E and Chrome related updates and our emails 
+      Don't worry, no spam here! Your information will only be used for C.O.D.E and Chrome related updates<br></br> and our emails 
       are typically no more than 1-2 times a month. You can unsubscribe anytime.
       </span>
       <br></br>
-         <button type="submit " className="buttonNewsletter">Let's Connect</button>
-      </form>
-     
-     </div>
 </div>
     
         </section>

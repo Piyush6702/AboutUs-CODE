@@ -27,15 +27,15 @@
 .eventsWrapper{font-weight: 400;
      border: 1px solid #d0d0d0;
 background: #fff;
-border-radius: 6px;}
+ }
 .eventsCategory
 {
    background: #fafafa;
    padding: 14px 24px;
    overflow:auto;
-   font-size:20px;
-   border-top: 1px solid #e0e0e0;
-   border-bottom: 1px solid #e0e0e0;
+    
+   border: 1px solid #e0e0e0;
+   
    text-align: left;
    white-space: nowrap;
     display: flex;
@@ -44,7 +44,7 @@ border-radius: 6px;}
 .eventsCategory  >a 
 {
    padding-right:84px;
-   font-size:25px;
+   font-size:20px;
    font-weight:600;
 }
 
@@ -52,12 +52,12 @@ border-radius: 6px;}
    background: #fafafa;
    padding: 14px 24px;
    margin-bottom: 34px;
-   border-top: 1px solid #e0e0e0;
-   border-bottom: 1px solid #e0e0e0;
+   border: 1px solid #e0e0e0;
    text-align: left;
    white-space: nowrap;
     display: flex;
-    overflow: auto;}
+    overflow: auto;
+   font-size:17px;}
 .tab{
    margin-right:37px;
     

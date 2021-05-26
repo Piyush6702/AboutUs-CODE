@@ -3,10 +3,11 @@
     box-sizing: content-box;
     margin: 0 auto;
     overflow: visible;
-     max-width:720px;
+    
 }
 .newsletterSection{
     text-align: center;
+    margin-top:5%;
 }
 .userDetailsNewsletter
 {
@@ -25,11 +26,16 @@
 form{
     margin: 0;
     padding: 0;
+    max-width:600px;
+    padding:20px;
+    text-align: start;
 }
-input[type=text]
+input[type=number]
 {
-    max-width:320px;
+    -webkit-appearance: none;
+     
 }
+ 
  .emailOuterDiv
  {
      display: block;
@@ -39,15 +45,16 @@ input
     
     border: 1px solid #dadce0;
     font: inherit;
-    font-size: inherit;
-    padding: 14px 8px;
+    font-size: 16px;
+    padding: 14px;
     width: stretch;
     outline:none;   
     margin-top:3%;
-    color:rgb(246 141 13);;;
+    color:rgb(246 141 13);
+    border-radius: 4px;
 }
   
- form > span{
+  span{
     color: #5f6368;
     font: inherit;
     font-size: 14px;
@@ -70,7 +77,8 @@ input
     letter-spacing: 1px;
     outline: 0;
     padding: 0 16px;
-    margin-top:3%;
+    margin-top:5%;
+    float:right;
     background-color:rgb(246 141 13);;
     }
     .contact{

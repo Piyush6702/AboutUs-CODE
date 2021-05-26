@@ -1,6 +1,8 @@
 import '../styles/events.css'
 import svg from '../assets/SVG.svg';
-
+import {
+   
+} from "react-router-dom";
 function Events() {
     return (
       <div className="events"> 
@@ -19,7 +21,9 @@ function Events() {
            <div className="eventBody">
                 <div className="eventCardContainer">
                    <div className="eventsContainer">
-                       <div className="cardEvent">
+                  
+                  
+                    <div className="cardEvent">
                         <div className="card">
                            <div className="cardHeader">
                                <div className="cardHeaderInner">
@@ -72,6 +76,7 @@ function Events() {
                           </div>
                         </div>
                        </div>
+                        
                        <div className="cardEvent">
                         <div className="card">
                            <div className="cardHeader">

@@ -1,46 +1,61 @@
 import React,{useState} from "react";
 import {
-    NavLink
+    NavLink, useHistory
   } from "react-router-dom";
 import '../styles/nav.css';
  
 function Nav()
-{
+{let history =useHistory();
 
     let [showSideNav,setSideNav]=useState(false);
-
+    let close=function(event)
+    {
+     
+      if(event.target.id)
+      { history.push(event.target.id)
+       setSideNav(!showSideNav)}
+    }
     return (
         <div>
         <div className="header">  
-        
-        <div className="hamburger">
-               <button onClick={()=> setSideNav(!showSideNav)}>
-               &#9776;
-               </button>
-        </div>
-        <div className="logo">
+           <div className="hamburger">
+                  <button onClick={()=> setSideNav(!showSideNav)}>
+                    &#9776;
+                  </button>
+           </div>
+      
+        { !showSideNav && <div className="logo">
           <NavLink to="/">C.O.D.E</NavLink>
-        </div>
+                          </div>
+         }
 
-     { showSideNav &&  <div className="sideNav">
-     <span onClick={()=> setSideNav(!showSideNav)}>
-       <p> X</p>
-    
-     </span>
-     <ul className="sidebar">
-               
+         { showSideNav &&  
+      <div className="sideNav">
+          <div  className="close" onClick={()=> setSideNav(!showSideNav)}>
+            X 
+           </div>
+           <NavLink to="/" className="logoSideNav"  onClick={()=> setSideNav(!showSideNav)}>
+               <h1>
+                 C.O.D.E
+                </h1>
+             <p>Learn Build Innovate </p>
+            </NavLink>
+     <ul className="sidebar" onClick={close}>
                 <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <div  className="navTabs" id="projects">Projects</div>
                 </li>
                 <li>
-                <NavLink to="/events"> Events</NavLink>
+                < div className="navTabs" id="events"> Events</div>
                 </li>
                 
                 <li>
-                <NavLink to="/about">About Us</NavLink>
+                < div className="navTabs" id="about" >About Us</div>
                 </li>
                 <li>
-                <NavLink to="/contact">Contact</NavLink>
+                < div className="navTabs" id="blogs" >Blogs</div>
+                </li>
+                <li>
+                < div className="navTabs" id="contact">Contact</div>
                 </li>
            </ul>
         </div>}
