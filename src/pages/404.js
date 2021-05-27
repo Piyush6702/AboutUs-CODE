@@ -5,7 +5,7 @@ function Error404() {
       <div className="error404">
          <div className="erro404Inner">
 
-         <img src={error} alt ="404 error image"></img>
+         <img src={error} alt ="404 error"></img>
  
          </div>
       </div>
