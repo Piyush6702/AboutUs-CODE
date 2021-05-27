@@ -19,7 +19,7 @@ function Newsletter()
          </div>
        
        <div className="newLetterInputDiv">
-      <form>
+      <form className="newslettterForm">
        
           <div className="emailOuterDiv">
           <input type="email"  required   placeholder="Enter your email"></input>
