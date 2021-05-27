@@ -26,7 +26,8 @@ ul{ padding-right:40px;
 }
 a{
     text-decoration: none;
-    color:black;    
+    color:black;  
+    align-items: center;;  
 }
 a:hover{
     color:grey;
@@ -147,8 +148,19 @@ margin-bottom:0;
     font-size:15px;
   }
    
-  .error404 
-  { margin:1%;
-    color:black;
-      
-  }
+   
+.icons{
+    height:13px;
+    margin-right:10px;
+    color:white;
+}
+.error404{
+    margin:0 auto;
+    padding:20px;
+    text-align:center
+}
+.erro404Inner >img
+{
+    height:25vw;
+     
+}

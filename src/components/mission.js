@@ -9,14 +9,8 @@ function Mission() {
              </h1>
               <div>
           <p>
-           
-        About C.O.D.E
-
-         C O D E is club of developers , by developers and for the developers. It also contains college study behaviour ,GATE preparation focused From Competitive to College Subjects , Guidance to collaboration in projects, Hiring to Learning .CODDE
-         tries to remove the obstacles that hinders BIETian to prove themselves on bigger platform
+         "" Club Of Developers’ mission is to create a better learning and collaborative atmosphere in the campus where they can learn and explore new technologies and can enhance their skills ""
           </p>
-           
-         
               </div>
           </section>
       </div>

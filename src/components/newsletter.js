@@ -20,10 +20,7 @@ function Newsletter()
        
        <div className="newLetterInputDiv">
       <form>
-          {/* <div className="userDetailsNewsletter">
-               <input type="text" required placeholder="First Name"></input>
-               <input type="text" required placeholder="Last Name   "></input>
-          </div> */}
+       
           <div className="emailOuterDiv">
           <input type="email"  required   placeholder="Enter your email"></input>
           </div>

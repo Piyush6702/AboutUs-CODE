@@ -13,12 +13,7 @@ function AboutCode() {
         </div>
               <div>
           <p>
-        About C.O.D.E
-
-         C O D E is club of developers , by developers and for the developers. It also contains college study behaviour ,GATE preparation focused From Competitive to College Subjects , Guidance to collaboration in projects, Hiring to Learning .CODDE
-         tries to remove the obstacles that hinders BIETian to prove themselves on bigger platform
-          </p>
-          
+         ""Club of Developers is an initiative of The Department of Computer Science & Engineering, BIET Jhansi. CODE  aims to establish a coding culture on campus, reaching every student passionate about development. The club's motto is to Learn-Build-Innovate. CODE is for everyone, regardless of their field of study or their current level of knowledge ""          </p>
               </div>
           </section>
          

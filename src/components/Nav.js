@@ -3,7 +3,10 @@ import {
     NavLink, useHistory
   } from "react-router-dom";
 import '../styles/nav.css';
- 
+import contact from '../assets/contactSVG.svg'
+import project from '../assets/projectSVG.svg'
+import events from '../assets/eventSVG.svg'
+import about from '../assets/aboutSVG.svg'
 function Nav()
 {let history =useHistory();
 
@@ -42,10 +45,10 @@ function Nav()
             </NavLink>
      <ul className="sidebar" onClick={close}>
                 <li>
-                <div  className="navTabs" id="projects">Projects</div>
+                <div  className="navTabs" id="projects"> Projects</div>
                 </li>
                 <li>
-                < div className="navTabs" id="events"> Events</div>
+                < div className="navTabs" id="events" > Events</div>
                 </li>
                 
                 <li>
@@ -63,20 +66,20 @@ function Nav()
             <ul >
                 
             <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/projects"><img src={project} alt="project-icon" className="icons"></img>Projects</NavLink>
                 </li>
                 <li>
-                <NavLink to="/events"> Events</NavLink>
+                <NavLink to="/events"><img src={events} alt="event-icon" className="icons"></img> Events</NavLink>
                 </li>
                 <li>
                 <NavLink to="/blogs">Blogs</NavLink>
                 </li> 
                  
                 <li>
-                <NavLink to="/about">About Us</NavLink>
+                <NavLink to="/about"><img src={about} alt="about-icon" className="icons"></img>About Us</NavLink>
                 </li>
                 <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact"> <img src={contact} alt="contact-icon" className="icons"></img>Contact</NavLink>
                 </li>
            </ul>
         </div>

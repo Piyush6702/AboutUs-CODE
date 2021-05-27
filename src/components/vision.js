@@ -20,15 +20,6 @@ function Mission() {
           </section>
            <section>
 <Founder/>
-
-            {/* <h1>
-              Founder Word's
-            </h1>
-            <div className="founderrDivConainer">
-              <div className="founderCard"> 
-Hello
-              </div>
-            </div> */}
            </section>
       </div>
     );

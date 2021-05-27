@@ -3,7 +3,9 @@ function Social() {
     return (
       <div className="social">
         <div className="socialMediaDiv">
-
+<p>
+Join us on our social media platforms to get updated with our latest news and events.
+</p>
         <ul>
               <li>
                   <a href="https://www.youtube.com/channel/UCgxZ9rqaWscw-kOfkj2F2lQ" target="_blank" rel="noreferrer" >Ytube

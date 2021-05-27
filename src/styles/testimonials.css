@@ -64,12 +64,13 @@ h2
 .writerImageDiv
 {
 
-padding:4px;
-background:rgb(226, 221, 221);
-    border-radius: 40px;
-   
+    padding:4px;
+    background:rgb(226, 221, 221);
+    border-radius: 50%;
+    margin:0;
+    height:100%;
 }
-
+ 
 
 .writerDesc{
     

@@ -1,12 +1,11 @@
 .cardsFoundingMemberDiv
 {
-   margin-top:4%;
-   display:flex;
-   justify-content: center;
 
+  display:flex;
+   justify-content: center;
    flex-wrap:wrap;
    margin :0 auto;
-   
+   margin-top:10%;    
 }
 section h1{
    font-size: 40px;;
@@ -21,15 +20,14 @@ section h1{
    margin-bottom:5%;
    margin-left:5%;
   padding:10px;
-  border:1px solid rgb(224, 221, 221);
+  
 }
 .imagesFounder
-{max-width:200px;
+{  max-width:200px;
    display: block;
-  
+   margin-bottom:10%;
    width:100%;
    height:auto;
-  
    padding-left: 0;
    
 }
@@ -52,6 +50,14 @@ section h1{
    color: inherit;
    width: 100%;
    color:rgb(160, 150, 150);
+   text-align:left;
 }
   
  
+.imgFounder
+{ display: inline-block;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   overflow: hidden;
+}

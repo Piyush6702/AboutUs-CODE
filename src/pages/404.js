@@ -1,8 +1,13 @@
  import '../styles/nav.css'
+ import  error from '../assets/error.svg'
 function Error404() {
     return (
       <div className="error404">
-        404 error occured 
+         <div className="erro404Inner">
+
+         <img src={error} alt ="404 error image"></img>
+ 
+         </div>
       </div>
     );
   }

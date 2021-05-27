@@ -19,6 +19,7 @@
 .contactDetailsInner >h2
 {
     margin-top:0;
+    color:grey;padding-left:0;
 }
 .textareaContactDetails
 {

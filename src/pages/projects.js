@@ -7,8 +7,7 @@ function Projects() {
         <h1>
           Projects  
         </h1>
-        <p>Made  under Guidance of C.O.D.E</p>
-        <section>
+         <section>
          
           <Project/>
         </section>
