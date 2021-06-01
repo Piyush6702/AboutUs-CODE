@@ -58,6 +58,9 @@ function Nav()
                 < div className="navTabs" id="blogs" >Blogs</div>
                 </li>
                 <li>
+                < div className="navTabs" id="discussion">Contact</div>
+                </li>
+                <li>
                 < div className="navTabs" id="contact">Contact</div>
                 </li>
            </ul>
@@ -79,13 +82,14 @@ function Nav()
                 <NavLink to="/about"><img src={about} alt="about-icon" className="icons"></img>About Us</NavLink>
                 </li>
                 <li>
+                <NavLink to="/discussion"><img src={about} alt="discussion-icon" className="icons"></img>Discussion</NavLink>
+                </li>
+                <li>
                 <NavLink to="/contact"> <img src={contact} alt="contact-icon" className="icons"></img>Contact</NavLink>
                 </li>
            </ul>
         </div>
-     <div>  
-   </div>
-        
+   
        <div className="loginButton">
          Login
        </div>

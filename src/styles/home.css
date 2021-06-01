@@ -130,11 +130,9 @@ section h2
     padding:32px;
     box-sizing: content-box;
     margin: 0 auto;
-    background-color:#f68f4a;
     overflow: visible;
     padding: 176px 24px 72px;
     padding: 72px 24px;
-     
     flex-wrap: wrap;
     text-align: center ;
     align-items: center;

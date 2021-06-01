@@ -1,0 +1,92 @@
+.discussion
+{
+    margin:0 auto;
+padding:20px;
+}
+.discussionInner
+{
+    margin:0 auto;
+}
+.searchQuestion
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;margin:0 auto;
+    max-width:720px;
+}
+.inputQuestion
+{
+    outline:none;
+    text-align: left;
+    padding:5px;
+    font-size: 20px;
+    max-width:500px;
+}
+.questionAskedButon
+{
+     
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+     font-weight:900;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color:rgb(246 141 13);;
+    margin: 0px 16px 0 16px;
+}
+.discussionBody
+{
+    padding:20px;
+    background-color: rgb(248 248 248)
+}
+.questionTags
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+.tags
+{
+    max-width:200px;
+    background:#41753e;
+    font-size: 18px;
+    margin-right:4%;
+    margin-top:5px;
+    border-radius: 4px;
+    color:white;
+    padding:5px;
+    cursor: pointer;
+}
+.tags:first-child
+{
+    background-color: rgb(151, 79, 79);;
+}
+.discussionBox
+{
+    max-width:900px;
+    color:grey;
+    
+}
+.discussionBox
+{  margin:0 auto;
+    margin-top:3%;;
+    text-align: left;
+}
+.discussionCard
+{
+    background-color: white;
+}
+.discussionCard >p{
+    padding:10px;
+    color:rgb(41, 38, 38);
+    font-size: 25px;
+    font-weight: 900;;
+    margin-bottom:0;
+}
+.discussionCard
+ >span{
+     margin-bottom: 4%;;
+     padding:10px;
+     font-size:15px;
+ }

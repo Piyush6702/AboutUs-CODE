@@ -1,7 +1,7 @@
 import '../styles/events.css'
 import svg from '../assets/SVG.svg';
 import {
-   
+   Link
 } from "react-router-dom";
 function Events() {
     return (
@@ -132,6 +132,7 @@ function Events() {
                                  Second year
                                  </div>
                               </div>
+                              <Link to="/event/id" className="eventId">Register</Link>
                           </div>
                         </div>
                        </div>

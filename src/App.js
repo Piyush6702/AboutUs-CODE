@@ -9,6 +9,7 @@ const Home = lazy(() => import("./pages/Home"));
 const Error404 = lazy(() => import("./pages/404"));
 const Events = lazy(() => import("./pages/events"));
 const Projects = lazy(() => import("./pages/projects"));
+const Discussion = lazy(() => import("./pages/discussion"));
 const Footer = lazy(() => import("./components/Footer"));
 const Event_details = lazy(() => import("./components/event_details"));
 
@@ -29,7 +30,8 @@ function App() {
                     <Route path="/contact" component={Contact} />
                     <Route path="/events" component={Events} />
                     <Route path="/about" component={About} /> 
-                    <Route path="/events/:id" component={Event_details} /> 
+                    <Route path="/discussion" component={Discussion} /> 
+                    <Route path="/event/id" exact component={Event_details} /> 
                     <Route
                       path="*"
                       render={() => <p className="link">
