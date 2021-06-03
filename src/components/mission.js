@@ -3,12 +3,13 @@ import '../styles/about.css'
 function Mission() {
     return (
       <div className="aboutCODE">
-           <h1>
-                 Our Goal
-         </h1>
+
           <section>
             
               <div className="aboutHead ">
+              <h1>
+                 Our Goal
+         </h1>
           <p>
          "" Club Of Developers’ mission is to create a better learning and collaborative atmosphere in the campus where they can learn and explore new technologies and can enhance their skills ""
           </p>

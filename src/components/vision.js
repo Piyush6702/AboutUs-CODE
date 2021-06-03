@@ -8,15 +8,16 @@ const Founder= lazy(()=>import("./founder"));
 function Mission() {
     return (
       <div className="aboutCODE">
-          <h1>
-               Why we are building C.O.D.E
-             </h1>
+       
           <section>
           <div className="aboutImage">
                   <img src={img} alt="s" className="aboutImg"></img>
 
               </div>
               <div className="aboutHead">
+              <h1>
+               Why we are building C.O.D.E
+             </h1>
           <p>
          * With the rising trend of video consumption, we believe videos are a great medium to educate & train people
           <br></br>

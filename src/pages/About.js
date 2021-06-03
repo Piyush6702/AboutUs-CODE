@@ -10,11 +10,11 @@ function About() {
       <div className="about">
         
        <AboutCode/> 
-       <hr></hr>
+      
       <Mission/>
-      <hr></hr>
+     
       <Vision/>
-      <hr></hr>
+      
       </div>
     );
   }

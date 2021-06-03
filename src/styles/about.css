@@ -1,9 +1,10 @@
 
 .about{
     padding:20px;
-    max-width:1020px;
+    max-width:1220px;
     margin:0 auto;
-    font-family: 'Poppins';font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
 }
 .aboutCODE 
 {
@@ -26,10 +27,11 @@ h3{
 .aboutCODE h1{
    
     padding-left: 0;
+    margin:0;
     color:rgb(97, 93, 93);
 }
 .aboutCODE p{
-    font-weight: 900;
+     
     padding-left: 0;
     color:grey;
     font-size:20px;
