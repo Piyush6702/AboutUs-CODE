@@ -8,9 +8,13 @@ const Vision= lazy(()=>import("../components/vision"));
 function About() {
     return (
       <div className="about">
+        
        <AboutCode/> 
+       <hr></hr>
       <Mission/>
+      <hr></hr>
       <Vision/>
+      <hr></hr>
       </div>
     );
   }

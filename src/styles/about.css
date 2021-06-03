@@ -1,22 +1,50 @@
 
-.mission
+.about{
+    padding:20px;
+    max-width:1020px;
+    margin:0 auto;
+    font-family: 'Poppins';font-size: 22px;
+}
+.aboutCODE 
 {
     margin:0 auto;
     padding:20px;
-    max-width:1020px;
+ 
     
 }
-.mission h1{
+.aboutCODE > section
+{
+    display:flex;   
+    margin-top:5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+h3{
+    text-align: center;
+}
+.aboutCODE h1{
    
     padding-left: 0;
     color:rgb(97, 93, 93);
 }
-.mission p{
+.aboutCODE p{
+    font-weight: 900;
     padding-left: 0;
     color:grey;
     font-size:20px;
+    margin:0;
    margin-bottom:0;
-   padding-bottom: 0    ;
+   padding-bottom: 0  ;
+}
+.aboutHead
+{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 620px;
+    align-items: center;
+     
 }
  .aboutImg{
  
@@ -26,6 +54,7 @@
 .aboutImage
 {
      padding:10px;
+     max-width: 263px;
 }
  
 .founderrDivConainer
@@ -34,3 +63,11 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .aboutImage {
+        display: none;
+      background-color: lightblue;
+    }
+  }
