@@ -4,7 +4,7 @@ const AboutCode= lazy(()=>import("../components/aboutCode"));
  
 const Mission= lazy(()=>import("../components/mission"));
 const Vision= lazy(()=>import("../components/vision"));
- 
+const Values= lazy(()=>import("../components/ourValues"));
 function About() {
     return (
       <div className="about">
@@ -14,6 +14,8 @@ function About() {
       <Mission/>
      
       <Vision/>
+      
+      <Values/>
       
       </div>
     );

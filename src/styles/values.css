@@ -1,0 +1,31 @@
+.valueCard >span 
+{
+    padding: 0;
+    padding-right: 10px;
+}
+.valuesDiv
+{
+    display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom:20px;
+}
+.valuesHeading
+{
+    color:orange;
+}
+.valueCard
+{
+    align-items: center;
+    text-align: left;
+    box-shadow: 0px 0px 8px 0px #c3c0c0;
+    padding: 16px;
+    margin-top:3%;
+    padding-top:22px;
+     font-size: 18px;
+     color:#504d4d;
+     border-radius: 4px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 250px;
+}
