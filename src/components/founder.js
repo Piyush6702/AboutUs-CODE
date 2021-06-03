@@ -1,4 +1,4 @@
-import development from "../assets/development.svg";
+import development from "../assets/dev.jpeg";
 import "../styles/founder.css";
 function Founder() {
   return (
@@ -31,6 +31,48 @@ function Founder() {
         </div>
         <div className="cardsFoundingMemberDiv">
           <div className="cardFounder">
+            <span className="quoteFounder">
+             " Teaching and making larn to Enthusiastic juniors is always  a task of responsibilty"   
+            </span>
+            <div className="imgFounder">
+              <img
+                src={development}
+                className="imagesFounder"
+                alt="devSvg"
+              ></img>
+            </div> 
+
+            <>
+              <div className="FounderTitle"> Ritsh Rai
+              
+              <span>
+               <a
+                    href="https://www.linkedin.com/company/codebiet/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                   🏳️‍🌈
+                  </a>
+                 </span>
+              </div>
+              <div className="FounderDesc">
+                Co-Founder ,CODE<br>
+                </br>
+              B.Tech in Computer Science
+              <br></br>
+              BIET JHANSI
+              <br></br>
+              <br>
+              </br>
+              Hack-Fest 2021Winner 
+              </div>
+
+            </>
+          </div>
+          <div className="cardFounder">
+          <span className="quoteFounder">
+             " Teaching and making larn to Enthusiastic juniors is always  a task of responsibilty"   
+            </span>
             <div className="imgFounder">
               <img
                 src={development}
@@ -39,46 +81,35 @@ function Founder() {
               ></img>
             </div>{" "}
             <>
-              <div className="FounderTitle"> Ritsh Rai</div>
-              <div className="FounderDesc">
-                Co-Founder
-                <li>
-                  <a
+              <div className="FounderTitle"> Samarth Agrawal
+              <span>
+               <a
                     href="https://www.linkedin.com/company/codebiet/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Lin
+                   🏳️‍🌈
                   </a>
-                </li>
+                 </span>
               </div>
-            </>
-          </div>
-          <div className="cardFounder">
-            <div className="imgFounder">
-              <img
-                src={development}
-                className="imagesFounder"
-                alt="devSvg"
-              ></img>
-            </div>{" "}
-            <>
-              <div className="FounderTitle"> Samarth Agrawal</div>
               <div className="FounderDesc">
-                Co-Founder
-                <li>
-                  <a
-                    href="https://www.linkedin.com/company/codebiet/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Lin
-                  </a>
-                </li>
+                Co-Founder ,CODE<br>
+                </br>
+              B.Tech in Computer Science
+              <br></br>
+              BIET JHANSI
+              <br></br>
+              <br>
+              </br>
+              Hack-Fest 2021Winner 
               </div>
+
             </>
           </div>
           <div className="cardFounder">
+          <span className="quoteFounder">
+             " Teaching and making larn to Enthusiastic juniors is always  a task of responsibilty"   
+            </span>
             <div className="imgFounder">
               <img
                 src={development}
@@ -87,19 +118,30 @@ function Founder() {
               ></img>
             </div>
             <>
-              <div className="FounderTitle"> Rajat Saxena </div>
-              <div className="FounderDesc">
-                Co-Foundr
-                <li>
-                  <a
+              <div className="FounderTitle"> Rajat Saxena
+              <span>
+               <a
                     href="https://www.linkedin.com/company/codebiet/"
-                    target="_blank"
                     rel="noreferrer"
+                    target="_blank"
                   >
-                    Lin
+                   🏳️‍🌈
                   </a>
-                </li>
+                 </span>
+              
+               </div>
+              <div className="FounderDesc">
+                Co-Founder ,CODE<br>
+                </br>
+              B.Tech in Computer Science
+              <br></br>
+              BIET JHANSI
+              <br></br>
+              <br>
+              </br>
+              Hack-Fest 2021Winner 
               </div>
+
               <div></div>
             </>
           </div>
