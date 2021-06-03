@@ -61,10 +61,8 @@ function Founder() {
               B.Tech in Computer Science
               <br></br>
               BIET JHANSI
-              <br></br>
-              <br>
-              </br>
-              Hack-Fest 2021Winner 
+             
+              
               </div>
 
             </>
@@ -98,10 +96,7 @@ function Founder() {
               B.Tech in Computer Science
               <br></br>
               BIET JHANSI
-              <br></br>
-              <br>
-              </br>
-              Hack-Fest 2021Winner 
+              
               </div>
 
             </>
@@ -136,10 +131,7 @@ function Founder() {
               B.Tech in Computer Science
               <br></br>
               BIET JHANSI
-              <br></br>
-              <br>
-              </br>
-              Hack-Fest 2021Winner 
+              
               </div>
 
               <div></div>

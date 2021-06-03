@@ -3,8 +3,9 @@
     padding:20px;
     max-width:1360px;
     margin:0 auto;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito';
     font-size: 22px;
+    text-align: center;
 }
 .aboutCODE 
 {
@@ -70,12 +71,16 @@ h3{
     
     .aboutImage {
         display: none;
-      background-color: lightblue;
+     
     }
     .aboutHead{
         max-width:939px;
     
 
+    }
+    .asdf{
+display: block;
+margin-top:3%;
     }
     .aboutCODE h1{    
         text-align: center;

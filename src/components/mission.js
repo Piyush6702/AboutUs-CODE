@@ -14,7 +14,7 @@ function Mission() {
          "" Club Of Developers’ mission is to create a better learning and collaborative atmosphere in the campus where they can learn and explore new technologies and can enhance their skills ""
           </p>
               </div>
-              <div className="aboutImage">
+              <div className="aboutImage asdf">
                   <img src={img} alt="s" className="aboutImg"></img>
               </div>
           </section>
