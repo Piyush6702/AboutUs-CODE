@@ -18,11 +18,9 @@ function Home () {
       <div className="introDiv">
            <div className="divContent">
              <h1>
-              Learn ,Build, Innovate
+              Learn . Build . Innovate
              </h1>
-             <p>
-    Yahn koi 2-3 line ki tagline buss isse jyda nahi
-              </p>
+         
            <div className="loginButtonDiv">
            <button className="getStarted">Webinars</button>
            <button className="getProjects">Projects</button>
