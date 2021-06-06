@@ -1,10 +1,14 @@
 import development from "../assets/dev.jpeg";
 import "../styles/founder.css";
+import { FaLinkedinIn } from "react-icons/fa";
+
 function Founder() {
   return (
-    <div>
-      <section className="role">
-        <h1>Founder's Message</h1>
+    <div className="aboutCODE">
+      <div className="role">
+        <h1 className='BlockHeading'>
+          Founder's <span className="Headingspan">Message</span>
+        </h1>
 
         <div>
           <p>
@@ -12,27 +16,24 @@ function Founder() {
             the core fields. People have already stopped using hand drawing
             years ago ""{" "}
           </p>
-          <br>
-          </br>
+          <br></br>
           <p>
             "" Although you may learn it in your college, it is just to learn
             how drawings work; the real industry focuses on programming and
-            software for design and development. 
-            <br>
-            </br>
-           "" You need to change yourself and
-            adapt if you want to survive in a fast-changing world.""
-            <br>
-            </br>
-            <br></br> "" This makes
-            the Club of Developers one of the most important clubs in the
-            institute ""
+            software for design and development.
+            <br></br>
+            "" You need to change yourself and adapt if you want to survive in a
+            fast-changing world.""
+            <br></br>
+            <br></br> "" This makes the Club of Developers one of the most
+            important clubs in the institute ""
           </p>
         </div>
         <div className="cardsFoundingMemberDiv">
           <div className="cardFounder">
             <span className="quoteFounder">
-             " Teaching and making larn to Enthusiastic juniors is always  a task of responsibilty"   
+              " Teaching and making larn to Enthusiastic juniors is always a
+              task of responsibilty"
             </span>
             <div className="imgFounder">
               <img
@@ -40,36 +41,34 @@ function Founder() {
                 className="imagesFounder"
                 alt="devSvg"
               ></img>
-            </div> 
+            </div>
 
             <>
-              <div className="FounderTitle"> Ritsh Rai
-              
-              <span>
-               <a
+              <div className="FounderTitle">
+                {" "}
+                Ritesh Rai
+                <span>
+                  <a
                     href="https://www.linkedin.com/company/codebiet/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                   🏳️‍🌈
+                    <FaLinkedinIn style={{ color: "#ec7c2d" }} />
                   </a>
-                 </span>
+                </span>
               </div>
               <div className="FounderDesc">
-                Co-Founder ,CODE<br>
-                </br>
-              B.Tech in Computer Science
-              <br></br>
-              BIET JHANSI
-             
-              
+                Co-Founder ,CODE<br></br>
+                B.Tech in Computer Science
+                <br></br>
+                BIET JHANSI
               </div>
-
             </>
           </div>
           <div className="cardFounder">
-          <span className="quoteFounder">
-             " Teaching and making larn to Enthusiastic juniors is always  a task of responsibilty"   
+            <span className="quoteFounder">
+              " Teaching and making larn to Enthusiastic juniors is always a
+              task of responsibilty"
             </span>
             <div className="imgFounder">
               <img
@@ -79,31 +78,31 @@ function Founder() {
               ></img>
             </div>{" "}
             <>
-              <div className="FounderTitle"> Samarth Agrawal
-              <span>
-               <a
+              <div className="FounderTitle">
+                {" "}
+                Samarth Agrawal
+                <span>
+                  <a
                     href="https://www.linkedin.com/company/codebiet/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                   🏳️‍🌈
+                    <FaLinkedinIn style={{ color: "#ec7c2d" }} />
                   </a>
-                 </span>
+                </span>
               </div>
               <div className="FounderDesc">
-                Co-Founder ,CODE<br>
-                </br>
-              B.Tech in Computer Science
-              <br></br>
-              BIET JHANSI
-              
+                Co-Founder ,CODE<br></br>
+                B.Tech in Computer Science
+                <br></br>
+                BIET JHANSI
               </div>
-
             </>
           </div>
           <div className="cardFounder">
-          <span className="quoteFounder">
-             " Teaching and making larn to Enthusiastic juniors is always  a task of responsibilty"   
+            <span className="quoteFounder">
+              " Teaching and making larn to Enthusiastic juniors is always a
+              task of responsibilty"
             </span>
             <div className="imgFounder">
               <img
@@ -113,25 +112,28 @@ function Founder() {
               ></img>
             </div>
             <>
-              <div className="FounderTitle"> Rajat Saxena
-              <span>
-               <a
+              <div className="FounderTitle">
+                {" "}
+                Rajat Saxena
+                <span>
+                  <a
                     href="https://www.linkedin.com/company/codebiet/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                   🏳️‍🌈
+                    <FaLinkedinIn
+                      style={{
+                        color: "#ec7c2d",
+                      }}
+                    />
                   </a>
-                 </span>
-              
-               </div>
+                </span>
+              </div>
               <div className="FounderDesc">
-                Co-Founder ,CODE<br>
-                </br>
-              B.Tech in Computer Science
-              <br></br>
-              BIET JHANSI
-              
+                Co-Founder ,CODE<br></br>
+                B.Tech in Computer Science
+                <br></br>
+                BIET JHANSI
               </div>
 
               <div></div>
@@ -139,7 +141,7 @@ function Founder() {
           </div>
           <div></div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

@@ -3,8 +3,8 @@ import '../styles/values.css'
 function Values() {
    return (
      <div className="aboutCODE">
-         <h1>
-             Our <span className="valuesHeading">Values</span>
+         <h1 className="valuesHeading">
+             Our <span className='Headingspan'>Values</span>
          </h1>
         <div className="valuesDiv">
                 <div className="valueCard"> 

@@ -1,33 +1,48 @@
-.valueCard >span 
-{
-    padding: 0;
-    padding-right: 10px;
+.valueCard > span {
+  padding: 0;
+  padding-right: 10px;
 }
-.valuesDiv
-{
-    display: flex;
-flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom:20px;
+
+.valuesDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding-bottom: 20px;
 }
-.valuesHeading
-{
-    color:orange;
-    font-size:30px;
+.Headingspan {
+  color: orange;
+  margin: 0;
+  padding: 0;
+
 }
-.valueCard
-{
-    align-items: center;
-    text-align: left;
-    box-shadow: 0px 0px 8px 0px #c3c0c0;
-    padding: 16px;
-    margin-top:3%;
-    padding-top:22px;
-    font-size: 18px;
-    color:#504d4d;
-    border-radius: 4px;
-    margin-top:3%;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 250px;
+
+
+.valueCard {
+  align-items: center;
+  text-align: left;
+  box-shadow: 0px 0px 8px 0px #c3c0c0;
+  padding: 16px;
+  margin-top: 3%;
+  padding-top: 22px;
+  font-size: 18px;
+  color: #504d4d;
+  border-radius: 4px;
+  margin: 8px 14px;
+  width: 300px;
+}
+
+
+@media only screen  and (max-width:860px){
+  .valueCard{
+      width: 250px;
+  }
+}
+
+
+@media only screen  and (max-width:760px){
+   .valueCard{
+       min-width: 250px;
+       width: 90%;
+       margin: 10px auto;
+   }
 }

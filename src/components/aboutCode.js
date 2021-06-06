@@ -10,13 +10,14 @@ function AboutCode() {
           <img src={img} alt="about-us" className="aboutImg"></img>
         </div>
         <div className="aboutHead">
-        <h1>About C.O.D.E</h1>
+        <h1>About <span className='Headingspan'>
+        C.O.D.E</span> </h1>
           <p>
          ""Club of Developers is an initiative of The Department of Computer Science & Engineering, BIET Jhansi""
          <br></br>
          <br></br> CODE  aims to establish a coding culture on campus, reaching every student passionate about development.
          <br></br> 
-         <br></br>The club's motto is to Learn-Build-Innovate.    </p>
+         <br></br>The club's motto is to <b className='Headingspan'>Learn-Build-Innovate</b></p>
         </div>
   </section>
        
